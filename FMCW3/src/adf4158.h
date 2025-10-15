@@ -5,12 +5,10 @@
 #include "xgpio.h"
 #include "xil_types.h"
 
+#include "definitions.h"
+
 // External SPI instance (from spi.c)
 extern XSpi SPI0;
-
-// GPIO pin mapping (adapt as needed)
-#define ADF_CE_PIN     0   // GPIO[0] -> CE
-#define ADF_LE_PIN     1   // GPIO[1] -> LE
 
 #define FREQ_PFD       30000000U
 

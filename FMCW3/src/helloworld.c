@@ -21,6 +21,7 @@
 #include "platform.h"
 #include "xil_printf.h"
 
+#include "definitions.h"
 
 int main()
 {
