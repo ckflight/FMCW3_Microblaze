@@ -7,7 +7,8 @@
 #define ADF_CE_PIN          0   // GPIO[0] -> CE
 #define ADF_LE_PIN          1   // GPIO[1] -> LE
 
-#define SAMPLING_DONE       3   // GPIO[2] -> Sampling is done --> to FPGA
+#define RAMP_CONFIGURED     2   // GPIO[2] -> Ramp is configured --> to FPGA
+#define SAMPLING_DONE       3   // GPIO[3] -> Sampling is done --> to FPGA
 
 #endif // DEFINITIONS_H
 
